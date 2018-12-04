@@ -1,0 +1,26 @@
+temperature=input('Enter the temperature: ')
+temperature=eval(temperature)
+farenheit = (9/5) * temperature - 459.67
+print("The temperature is " ,farenheit, "degrees farenheit")
+
+distance=input("Enter the distance: ")
+distance=eval(distance)
+print(distance)
+miles = distance / 1.609344
+print("The distance is ",miles, "miles"
+      
+minutes=input('Enter the minutes: ')
+minutes=eval(minutes)
+seconds=input("Enter the seconds")
+seconds=eval(seconds)
+print(seconds)
+ans = minutes * 60  + seconds
+print("The seconds are " ,ans, "seconds")      
+
+feet=input('Enter the feet: ')
+feet=eval(feet)
+inches=input("Enter the inches: ")
+inches=eval(inches)
+print(inches)
+ans = feet * 0.3048 + inches * 0.0254
+print("The height is " ,ans, "meters")
